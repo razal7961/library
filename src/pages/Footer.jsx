@@ -10,7 +10,7 @@ function Footer() {
         <h2 className='text-light col-3 d-flex justify-content-center align-items-center' style={{width:'200px'}} >LIBRARY</h2>
         </div>
        
-        <div className='col-1 m-5 ' style={{width:'100px'}}>
+        <div className='col-1  ' style={{width:'100px'}}>
         <h2 className='text-light' >Links</h2>
        <Link to='/log'> <button className=' btn text-light'>Login</button></Link>
        <Link to='/reg'><button className='btn text-light'>Signup</button></Link>

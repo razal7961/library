@@ -21,7 +21,7 @@ function Home() {
         <div  className=' m-5 '>
 
 
-          <div className='d-flex justify-content-evenly'>
+          <div className='d-flex justify-content-evenly' style={{overflowX:"scroll"}}>
 
             <div>
               <img src="https://th.bing.com/th/id/OIP.j_LCONUE58k8D0-FYF0xKQAAAA?pid=ImgDet&w=159&h=254&c=7" alt="" />
@@ -50,7 +50,7 @@ function Home() {
 
           </div>
 
-          <div className='d-flex justify-content-evenly'>
+          <div className='d-flex justify-content-evenly' style={{overflowX:"scroll"}}>
             <div>
               <img src="https://th.bing.com/th/id/OIP.YKMfmtiwurEnx9ertgQg-gHaL6?w=115&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
               <div className='d-grid m-3'><button className='btn btn-info btn-block'>Read</button></div>
